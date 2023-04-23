@@ -5,6 +5,13 @@ Para resolver esse problema, será desenvolvido um sistema de gerenciamento de t
         2 - [PROJETO WEB para servir de mural onde será visualizado os cards das tarefas existentes](./WEBAPP/task-viewer/README.md)
         3 - MongoDB para persistência dos dados necessários para o funcionamento
 
+---
+		
+# Arquitetura:
+![Arquitetura do projeto](./arquitetura.png)
+
+---
+
 # Intruções
 
 Para utilizar o projeto, faça o clone do projeto abrindo o terminal na pasta que deseja que o projeto seja copiado e executando o seguinte comando:
