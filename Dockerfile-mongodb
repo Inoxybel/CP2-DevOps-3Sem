@@ -1,0 +1,9 @@
+FROM mongo:4.4
+
+RUN groupadd -r mongogroup && useradd -r -g mongogroup usuariocomum
+
+RUN chown -R usuariocomum:mongogroup /data/db /data/configdb
+
+WORKDIR /banco
+
+USER usuariocomum

@@ -2,7 +2,9 @@ version: "3.9"
 
 services:
   nginx:
-    image: nginx:stable-alpine
+    build:
+        context: .
+        dockerfile: Dockerfile-nginx
     ports:
       - "80:80"
     networks:
@@ -37,7 +39,9 @@ services:
       - REACT_APP_NET_APP_URL=http://nginx:80
 
   mongodb:
-    image: mongo:4.4
+    build:
+        context: .
+        dockerfile: Dockerfile-mongodb
     networks:
       - app-network
     volumes:
