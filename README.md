@@ -46,3 +46,5 @@ Após clonar o repositório, você irá precisar das seguintes dependências ins
     Note que em ambos containers dos projetos (WEB e API) a aplicação está em seu diretório padrão definido como /app
 
 ---
+
+Link da aplicação sendo clonada e executada: https://youtu.be/z6JXjB9V5UY
