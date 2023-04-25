@@ -2,9 +2,9 @@
 O projeto tem como objetivo resolver um problema de gerenciamento de tarefas dentro de alguns times da DimDim, na qual o sistema de Kanban em nuvem utilizado por esses times ultimamente tem ficado constantemente instável o que gerou constantes problemas de orquestração de tarefas nos times, causando duplicações e atrasos nas entregas das tarefas durantes as sprints.
 Para resolver esse problema, será desenvolvido um sistema de gerenciamento de tarefas para uso interno temporário, portanto sem muita complexidade como um sistema de login por exemplo, que será executada na nuvem pública Azure e contará com: <br><br>
 
-        1 - [API em .NET para o CRUD de tarefas (Criar, Recuperar, Atualizar, Deletar)](./WEBAPI/TaskManager/README.md) <br>
-        2 - [PROJETO WEB para servir de mural onde será visualizado os cards das tarefas existentes](./WEBAPP/task-viewer/README.md) <br>
-        3 - MongoDB para persistência dos dados necessários para o funcionamento <br>
+1 - [API em .NET para o CRUD de tarefas (Criar, Recuperar, Atualizar, Deletar)](./WEBAPI/TaskManager/README.md) <br>
+2 - [PROJETO WEB para servir de mural onde será visualizado os cards das tarefas existentes](./WEBAPP/task-viewer/README.md) <br>
+3 - MongoDB para persistência dos dados necessários para o funcionamento <br>
 
 ---
 		
